@@ -1,0 +1,9 @@
+/vendor/
+**/vendor/
+composer.phar
+.env
+.phpunit.result.cache
+.php-cs-fixer.cache
+.idea/
+.vscode/
+*.log

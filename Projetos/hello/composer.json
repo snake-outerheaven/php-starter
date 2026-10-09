@@ -1,0 +1,16 @@
+{
+    "name": "php-starter/hello",
+    "description": "Hello World em PHP",
+    "type": "project",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    },
+    "scripts": {
+        "start": "php src/index.php"
+    }
+}
